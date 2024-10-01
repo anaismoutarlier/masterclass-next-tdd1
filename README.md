@@ -15,9 +15,9 @@ _SETTING UP JEST IN A NEW PROJECT_
 1. Install Jest.
 
 ```bash
-yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom
 # or
-npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom
 ```
 
 2. Copy the `jest.config.mjs` and `jest.setup.js` files from this project into the new project.
